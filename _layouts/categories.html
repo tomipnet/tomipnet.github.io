@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
+<style>
+h2 {
+ position: absolute;
+  left: 15px;
+  top: 75px;
+}
+.include {
+  position: absolute;
+  left: 120px;
+  top: 120px;
+}
+</style>
 
   {%- include head.html -%}
 
   <body>
 
     {%- include header.html -%}
-    <main class="page-content" aria-label="Content" style="background-color:#FFFFFF;">
+ <main class="page-content" aria-label="Content" style="background-color:#FFFFFF;">
 
- <h2 style="color:#004792;"> Categories </h2>
+ <h2 style="color:#004792;">Categories:</h2>
 
+<div class="include">
            {%- include cat.html -%}
-
-    </main>
+           </div>
+ </main>
 
     {%- include footer.html -%}
 

@@ -1,5 +1,5 @@
 {% for category in site.categories %}
-  <h5 style="color:#004792;"><b>{{ category[0] }}</b></h5>
+  <h5 style="color:#004792;" ><b>{{ category[0] }}</b></h5>
   <ul>
     {% for post in category[1] %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
