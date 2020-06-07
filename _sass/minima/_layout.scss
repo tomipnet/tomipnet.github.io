@@ -303,7 +303,7 @@
     margin: 5px 10px 5px 0;
     &:last-of-type { margin-right: 0 }
     a {
-      display: block;
+      display: grid;
       padding: $spacing-unit / 4;
       border-radius: 5px;
       border: 1px solid $border-color-02;
