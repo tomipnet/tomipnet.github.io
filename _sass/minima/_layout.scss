@@ -306,8 +306,8 @@
       display: block;
       padding: $spacing-unit / 4;
       border-radius: 5px;
-      border: 1px solid $social-media-color;
-      &:hover { border-color: $border-color-02 }
+      border: 1px solid $border-color-02;
+      &:hover { border-color: $social-media-color }
     }
   }
 }
