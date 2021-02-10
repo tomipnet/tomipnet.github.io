@@ -1,9 +1,9 @@
-title: Tom's Blog
+title: Tom's Net Blog
 author:
   name:
 #  email: your-email@domain.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Telco Cloud, Virtualization, SDN/NFV,Open Networking, Linux
+  Telco Cloud, Virtualization, SDN/NFV, Open Networking, Linux
 
 
 
