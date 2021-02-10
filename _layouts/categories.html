@@ -4,7 +4,7 @@
 h2 {
  position: absolute;
   left: 15px;
-  top: 85px;
+  top: 150px;
 }
 .include {
   position: absolute;
@@ -18,12 +18,10 @@ h2 {
   <body>
 
   {%- include header.html -%}
- <main class="page-content" aria-label="Content" style="background-color:#FFFFFF;">
-
-
+<main class="page-content" aria-label="Content" style="background-color:#FFFFFF;">
+<h2 style="color:#004792;">Categories:</h2>
 
 <div class="include">
- <h2 style="color:#004792;">Categories:</h2>
   {%- include cat.html -%}
 </div>
  </main>
