@@ -2,7 +2,7 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 <style>
 h2 {
- position: absolute;
+ position: float;
   left: 15px;
   top: 150px;
 }
@@ -19,9 +19,10 @@ h2 {
 
   {%- include header.html -%}
 <main class="page-content" aria-label="Content" style="background-color:#FFFFFF;">
-<h2 style="color:#004792;">Categories:</h2>
+
 
 <div class="include">
+<h2 style="color:#004792;">Categories:</h2>
   {%- include cat.html -%}
 </div>
  </main>
