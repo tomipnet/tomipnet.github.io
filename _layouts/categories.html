@@ -3,13 +3,17 @@
 <style>
 h2 {
  position: float;
-  left: 15px;
+  left: 5px;
   top: 150px;
 }
 .include {
   position: absolute;
   left: 120px;
   top: 120px;
+}
+.myinclude {
+  position: float;
+
 }
 </style>
 
@@ -21,8 +25,13 @@ h2 {
 <main class="page-content" aria-label="Content" style="background-color:#FFFFFF;">
 
 
-<div class="include">
+<div class="myinclude">
 <h2 style="color:#004792;">Categories:</h2>
+
+</div>
+
+<div class="include">
+
   {%- include cat.html -%}
 </div>
  </main>
